@@ -18,8 +18,8 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: 'Praagya Joshi',
-    description: 'Full stack product enginner',
+    title: 'Tommy Carrascal',
+    description: 'Full stack developer',
     keywords: 'full stack, product enginner, portfolio, personal website',
     url: 'https://www.praagya.com'
   }

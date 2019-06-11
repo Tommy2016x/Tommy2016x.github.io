@@ -11,14 +11,11 @@ $margin-bottom: 40px;
     max-width: $max-width;
     height: 180px;
     background-size: cover;
-    background-image: url(../../../assets/images/praagya.jpg);
+    background-image: url(../../../assets/images/me.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 50%;
     overflow: hidden;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%); /* For Webkit browsers */
-    filter: gray; /* For IE 6 - 9 */
     transition: all .6s ease;
     -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
     margin-bottom: $margin-bottom;

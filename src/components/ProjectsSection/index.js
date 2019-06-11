@@ -5,6 +5,9 @@ import ExperienceUnit from '../ExperienceUnit'
 import spotifyQuizLogo from '../../assets/images/projects/spotify-quiz.png'
 import littleNomadLogo from '../../assets/images/projects/little-nomad.png'
 import walkthroughViewGif from '../../assets/images/projects/wvwalkthroughview-optimize.gif'
+import ShellHacksLogo from '../../assets/images/projects/ShellHacksLogo.svg';
+import LOMLogo from '../../assets/images/projects/LOMLogo.png';
+import GeoLogo from '../../assets/images/projects/GeoLogo.png'
 
 class ProjectsSection extends React.Component {
   render() {
@@ -12,31 +15,34 @@ class ProjectsSection extends React.Component {
       <Section title="Projects">
         <div className="row">
           <ExperienceUnit
-            logo={littleNomadLogo}
+            logo={ShellHacksLogo}
             colour="#FFFFFF"
-            title="Little Nomad"
-            link="https://www.littlenomad.co/"
-            timeperiod="2017 - ???"
-            subtitle="A platform for socially aware travellers. Runs on
-              React+Redux with a Ruby on Rails backend."
+            title="ShellHacks Software"
+            position = {null}
+            link="https://github.com/UPE-FIU/pear-ShellHacks"
+            timeperiod="2018 - present" 
+            subtitle="Developed a backend API for our hackathon which handles over 2000 registrations and counting.
+            Created an admin portal for the organizers to use for accepting applicants, sending push notificatoins, and 
+            view registration statistics"
           />
           <ExperienceUnit
-            logo={spotifyQuizLogo}
-            colour="#20DC6B"
-            title="Music Quiz for Spotify"
-            link="https://quiz.praagya.com/"
-            timeperiod="2017"
-            subtitle="A fun quiz which tests your knowledge of music that
-              you've saved. Built using React/Redux."
+            logo={LOMLogo}
+            colour="#FFFFFF"
+            title="League of Memes"
+            position = {null}
+            link="https://github.com/league-of-laughs"
+            timeperiod="2019"
+            subtitle="A desktop and mobile party game where you and your friends compete to make the best meme."
           />
           <ExperienceUnit
-            logo={walkthroughViewGif}
-            colour="#312F31"
-            title="WalkthroughView"
-            link="https://github.com/praagyajoshi/WVWalkthroughView"
-            timeperiod="2016"
-            subtitle="A drop in utility to help onboard a new user/feature.
-              Written in Objective C."
+            logo={GeoLogo}
+            colour="#FFFFFF"
+            title="GeoScheduler"
+            position = {null}
+            link="https://github.com/geoschedule"
+            timeperiod="2019"
+            subtitle="An employee shift management system to clock in and clock out employees automatically 
+            with geolocation."
           />
         </div>
       </Section>

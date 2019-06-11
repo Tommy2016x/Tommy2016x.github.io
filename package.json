@@ -3,11 +3,11 @@
   "description": "Gatsby 2 Column Portfolio Starter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/praagyajoshi/gatsby-starter-2column-portfolio"
+    "url": "https://github.com/Tommy2016x/Tommy2016x.github.io"
   },
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby build && gh-pages -d public -b master",
     "build": "gatsby build",
     "serve": "gatsby serve"
   },

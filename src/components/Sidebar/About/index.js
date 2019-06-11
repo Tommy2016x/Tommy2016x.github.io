@@ -9,11 +9,8 @@ class About extends Component {
         <div className="image">
         </div>
         <div className="bio">
-          A technology enthusiast &amp; certified scuba diver, who loves travelling, paints occasionally
-          and follows football ardently.
-          <div className="emoji">
-            🤖 &nbsp;🏔&nbsp;🎨&nbsp; ⚽️
-          </div>
+          A technology enthusiast &amp; community engager, who loves going to hackathons, fitness,
+          and helping others succeed.
         </div>
       </div>
     )

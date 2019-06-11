@@ -2,9 +2,9 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import zomatoLogo from '../../assets/images/experience/zomato-logo.svg'
-import fitsoLogo from '../../assets/images/experience/fitso-logo.jpg'
-import kayakoLogo from '../../assets/images/experience/kayako-logo-2.jpg'
+import GoDaddyLogo from '../../assets/images/experience/GoDaddy.png';
+import BoatraxLogo from '../../assets/images/experience/BoatraxLogo.png';
+import FIULogo from '../../assets/images/experience/FIULogo.png';
 
 class ExperienceSection extends React.Component {
   render() {
@@ -12,32 +12,35 @@ class ExperienceSection extends React.Component {
       <Section title="Experience">
         <div className="row">
           <ExperienceUnit
-            logo={zomatoLogo}
-            colour='#CB202D'
-            title='Zomato'
-            link='https://www.zomato.com/'
-            timeperiod='2014 - 2015'
-            subtitle='Learnt the ins and outs of product development and
-              built various features including a completely new product.'
+            logo={GoDaddyLogo}
+            colour='#4AA34C'
+            title='GoDaddy'
+            position="Software Engineer Intern"
+            link='https://www.godaddy.com/'
+            timeperiod='May 2019 - August 2019'
+            subtitle='Part of the UX Platforms team as a full stack developer intern 
+            developing internal web frameworks and APIs used by product teams at GoDaddy'
           />
           <ExperienceUnit
-            logo={fitsoLogo}
+            logo={BoatraxLogo}
             colour='#FFFFFF'
-            title='Fitso'
-            link='https://www.getfitso.com/'
-            timeperiod='2016'
-            subtitle='Built real time GPS tracking on the iOS app,
-              all consumer facing web modules and external APIs in
-              this early stage startup.'
+            title='Boatrax'
+            position="Software Engineer Intern"
+            link='https://boatrax.com/'
+            timeperiod='May 2018 - august 2018'
+            subtitle='One of the main developers at a startup where I designed and implemented core
+            features of the main web application in React and wrote backend API services in PHP and
+            MySQL'
           />
           <ExperienceUnit
-            logo={kayakoLogo}
-            colour='#403949'
-            title='Kayako'
-            link='https://www.kayako.com/'
-            timeperiod='2017 - 2018'
-            subtitle='Worked as a Product Engineer on email processing,
-              push notifications, SLAs amongst other things.'
+            logo={FIULogo}
+            colour='#FFFFFF'
+            title='Florida International University'
+            position="Undergraduate Teaching Assistant"
+            link='https://www.cis.fiu.edu/'
+            timeperiod='2018 - present'
+            subtitle='Teaching Assistant for Intermediate Java where I primarily grade student assignments
+            and leave feedback for improving their code quality'
           />
         </div>
       </Section>
