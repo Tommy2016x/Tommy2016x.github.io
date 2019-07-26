@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{98:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Tommy Carrascal",description:"Full stack developer, student, hackathon enthusiast",url:"https://tommycarrascal.me",keywords:"full stack, product enginner, portfolio, personal website"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----ed8f8525dc4f6dadff7c.js.map
