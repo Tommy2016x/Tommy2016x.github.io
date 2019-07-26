@@ -19,8 +19,8 @@ module.exports = {
   ],
   siteMetadata: {
     title: 'Tommy Carrascal',
-    description: 'Full stack developer',
+    description: 'Full stack developer, student, hackathon enthusiast',
     keywords: 'full stack, product enginner, portfolio, personal website',
-    url: 'https://www.praagya.com'
+    url: 'https://tommycarrascal.me'
   }
 };
