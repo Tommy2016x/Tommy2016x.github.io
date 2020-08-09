@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{98:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Tommy Carrascal",description:"Full stack developer",url:"https://www.praagya.com",keywords:"full stack, product enginner, portfolio, personal website"}}},layoutContext:{}}}});
-//# sourceMappingURL=path----5d40597df711c04ebbe5.js.map
